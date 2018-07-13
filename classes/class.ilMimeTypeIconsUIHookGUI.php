@@ -30,10 +30,10 @@ class ilMimeTypeIconsUIHookGUI extends ilUIHookPluginGUI {
 			 *
 			 * ilObjectListGUI, Zeile 3590 (ILIAS 4.4)
 			 * // FSX Patch A2WP1.3
-			include_once('./Services/UIComponent/classes/class.ilUIHookProcessor.php');
-			$uih = new ilUIHookProcessor('Services/Object', 'list', array('list_gui' => $this->tpl, 'type' => $type, 'ref_id' => $a_ref_id));
-			return $uih->getHTML($this->tpl->get());
-			// END FSX Patch A2WP1.3
+			 * include_once('./Services/UIComponent/classes/class.ilUIHookProcessor.php');
+			 * $uih = new ilUIHookProcessor('Services/Object', 'list', array('list_gui' => $this->tpl, 'type' => $type, 'ref_id' => $a_ref_id));
+			 * return $uih->getHTML($this->tpl->get());
+			 * // END FSX Patch A2WP1.3
 			 */
 			if ($a_part == 'list' AND $a_par['type'] == 'file') {
 				$fileObj = new ilObjFile($a_par['ref_id']);
@@ -90,5 +90,3 @@ class ilMimeTypeIconsUIHookGUI extends ilUIHookPluginGUI {
 		//		echo '<pre>' . print_r($a_par, 1) . '</pre>';
 	}
 }
-
-?>
