@@ -16,16 +16,16 @@ require_once('./Modules/File/classes/class.ilObjFile.php');
 class ilMimeTypeIconsUIHookGUI extends ilUIHookPluginGUI {
 
 	/**
-	 * @param       $a_comp
-	 * @param       $a_part
-	 * @param array $a_par
+	 * @param string $a_comp
+	 * @param string $a_part
+	 * @param array  $a_par
 	 *
 	 * @return array
 	 */
 	public function getHTML($a_comp, $a_part, $a_par = array()) {
 		if ($a_comp == 'Services/Object') {
 			/**
-			 * @var $gui ilTemplate
+			 * @var ilTemplate $gui
 			 *
 			 *
 			 * ilObjectListGUI, Zeile 3590 (ILIAS 4.4)
@@ -82,9 +82,9 @@ class ilMimeTypeIconsUIHookGUI extends ilUIHookPluginGUI {
 
 
 	/**
-	 * @param       $a_comp
-	 * @param       $a_part
-	 * @param array $a_par
+	 * @param string $a_comp
+	 * @param string $a_part
+	 * @param array  $a_par
 	 */
 	public function modifyGUI($a_comp, $a_part, $a_par = array()) {
 		//		echo '<pre>' . print_r($a_par, 1) . '</pre>';
