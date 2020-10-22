@@ -2,26 +2,28 @@
   "name": "srag/plugins/SrFileObjectTypeIcons",
   "description": "",
   "version": "1.0.0",
-  "ilias_plugin": {
-    "id": "srfilobjtypicns",
-    "name": "SrFileObjectTypeIcons",
-    "ilias_min_version": "5.4.0",
-    "ilias_max_version": "6.999",
-    "slot": "Services/UIComponent/UserInterfaceHook",
-    "events": [
-      {
-        "id": "Plugins/SrContainerObjectMenu",
-        "type": "listen"
-      },
-      {
-        "id": "Plugins/SrContainerObjectTree",
-        "type": "listen"
-      },
-      {
-        "id": "Plugins/SrTile",
-        "type": "listen"
-      }
-    ]
+  "extra": {
+    "ilias_plugin": {
+      "id": "srfilobjtypicns",
+      "name": "SrFileObjectTypeIcons",
+      "ilias_min_version": "5.4.0",
+      "ilias_max_version": "6.999",
+      "slot": "Services/UIComponent/UserInterfaceHook",
+      "events": [
+        {
+          "id": "Plugins/SrContainerObjectMenu",
+          "type": "listen"
+        },
+        {
+          "id": "Plugins/SrContainerObjectTree",
+          "type": "listen"
+        },
+        {
+          "id": "Plugins/SrTile",
+          "type": "listen"
+        }
+      ]
+    }
   },
   "type": "project",
   "keywords": [
@@ -71,7 +73,7 @@
       "srag\\LibrariesNamespaceChanger\\LibrariesNamespaceChanger::rewriteLibrariesNamespaces",
       "srag\\LibrariesNamespaceChanger\\PHP72Backport::PHP72Backport",
       "srag\\LibrariesNamespaceChanger\\GeneratePluginPhpAndXml::generatePluginPhpAndXml",
-      "srag\\LibrariesNamespaceChanger\\UpdatePluginReadme::updatePluginReadme"
+      "srag\\LibrariesNamespaceChanger\\GeneratePluginReadme::generatePluginReadme"
     ]
   }
 }

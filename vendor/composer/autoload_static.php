@@ -19,7 +19,7 @@ class ComposerStaticInit2d9d932d1d6e4e5adfa2bf09cb650cb8
             'srag\\LibrariesNamespaceChanger\\' => 31,
             'srag\\DataTableUI\\SrFileObjectTypeIcons\\' => 39,
             'srag\\DIC\\SrFileObjectTypeIcons\\' => 31,
-            'srag\\CustomInputGUIs\\SrFileObjectTypeIcons\\' => 43,
+            'srag\\CustomInputGUIs\\' => 21,
         ),
     );
 
@@ -44,7 +44,7 @@ class ComposerStaticInit2d9d932d1d6e4e5adfa2bf09cb650cb8
         array (
             0 => __DIR__ . '/..' . '/srag/dic/src',
         ),
-        'srag\\CustomInputGUIs\\SrFileObjectTypeIcons\\' => 
+        'srag\\CustomInputGUIs\\' => 
         array (
             0 => __DIR__ . '/..' . '/srag/custominputguis/src',
         ),
@@ -201,6 +201,7 @@ class ComposerStaticInit2d9d932d1d6e4e5adfa2bf09cb650cb8
         'srag\\DataTableUI\\SrFileObjectTypeIcons\\Implementation\\Utils\\AbstractTableBuilder' => __DIR__ . '/..' . '/srag/datatable/src/Implementation/Utils/AbstractTableBuilder.php',
         'srag\\DataTableUI\\SrFileObjectTypeIcons\\Implementation\\Utils\\DataTableUITrait' => __DIR__ . '/..' . '/srag/datatable/src/Implementation/Utils/DataTableUITrait.php',
         'srag\\LibrariesNamespaceChanger\\GeneratePluginPhpAndXml' => __DIR__ . '/..' . '/srag/librariesnamespacechanger/src/GeneratePluginPhpAndXml.php',
+        'srag\\LibrariesNamespaceChanger\\GeneratePluginReadme' => __DIR__ . '/..' . '/srag/librariesnamespacechanger/src/GeneratePluginReadme.php',
         'srag\\LibrariesNamespaceChanger\\LibrariesNamespaceChanger' => __DIR__ . '/..' . '/srag/librariesnamespacechanger/src/LibrariesNamespaceChanger.php',
         'srag\\LibrariesNamespaceChanger\\PHP72Backport' => __DIR__ . '/..' . '/srag/librariesnamespacechanger/src/PHP72Backport.php',
         'srag\\LibrariesNamespaceChanger\\PHP7Backport' => __DIR__ . '/..' . '/srag/librariesnamespacechanger/src/PHP7Backport.php',

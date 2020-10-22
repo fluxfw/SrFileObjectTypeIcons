@@ -11,5 +11,5 @@ return array(
     'srag\\LibrariesNamespaceChanger\\' => array($vendorDir . '/srag/librariesnamespacechanger/src'),
     'srag\\DataTableUI\\SrFileObjectTypeIcons\\' => array($vendorDir . '/srag/datatable/src'),
     'srag\\DIC\\SrFileObjectTypeIcons\\' => array($vendorDir . '/srag/dic/src'),
-    'srag\\CustomInputGUIs\\SrFileObjectTypeIcons\\' => array($vendorDir . '/srag/custominputguis/src'),
+    'srag\\CustomInputGUIs\\' => array($vendorDir . '/srag/custominputguis/src'),
 );
