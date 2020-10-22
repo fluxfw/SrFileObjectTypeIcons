@@ -20,6 +20,7 @@ class ilSrFileObjectTypeIconsUIHookGUI extends ilUIHookPluginGUI
     const PLUGIN_CLASS_NAME = ilSrFileObjectTypeIconsPlugin::class;
     const TEMPLATE_GET = "template_get";
     const TEMPLATE_ID_CONTAINER_LIST_ITEM = "Services/Container/tpl.container_list_item.html";
+    const TEMPLATE_ID_ITEM_STANDARD = "src/UI/templates/default/Item/tpl.item_standard.html";
     const TEMPLATE_ID_MAIN = "tpl.main.html";
     const TEMPLATE_ID_MAIN_MENU = "Services/MainMenu/tpl.main_menu.html";
     const TEMPLATE_ID_PAGE_CONTENT = "tpl.page_content.html";
@@ -92,6 +93,16 @@ class ilSrFileObjectTypeIconsUIHookGUI extends ilUIHookPluginGUI
             $html = $a_par["html"];
 
             $html = self::srFileObjectTypeIcons()->fileTypeIcons()->replaceFileIconsMultipleObjects($html, '/\\s+id\\s*=\\s*["\']mm_last_visited_([0-9]+)/', false, false);
+
+            return [
+                "mode" => self::REPLACE,
+                "html" => $html
+            ];
+        }
+        if ($a_par["tpl_id"] === self::TEMPLATE_ID_ITEM_STANDARD && $a_part === self::TEMPLATE_GET) {
+            $html = $a_par["html"];
+
+            $html = self::srFileObjectTypeIcons()->fileTypeIcons()->replaceFileIconsMultipleObjects($html, '/[?&]ref_id=([0-9]+)/', true, true);
 
             return [
                 "mode" => self::REPLACE,
