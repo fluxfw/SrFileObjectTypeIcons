@@ -2,7 +2,7 @@
 
 require_once __DIR__ . "/../vendor/autoload.php";
 
-use srag\DIC\SrFileObjectTypeIcons\DevTools\DevToolsCtrl;
+use srag\DevTools\SrFileObjectTypeIcons\DevToolsCtrl;
 use srag\DIC\SrFileObjectTypeIcons\DICTrait;
 use srag\Plugins\SrFileObjectTypeIcons\FileTypeIcon\FileTypeIconsGUI;
 use srag\Plugins\SrFileObjectTypeIcons\Utils\SrFileObjectTypeIconsTrait;
@@ -12,7 +12,7 @@ use srag\Plugins\SrFileObjectTypeIcons\Utils\SrFileObjectTypeIconsTrait;
  *
  * @author            studer + raimann ag - Team Custom 1 <support-custom1@studer-raimann.ch>
  *
- * @ilCtrl_isCalledBy srag\DIC\SrFileObjectTypeIcons\DevTools\DevToolsCtrl: ilSrFileObjectTypeIconsConfigGUI
+ * @ilCtrl_isCalledBy srag\DevTools\SrFileObjectTypeIcons\DevToolsCtrl: ilSrFileObjectTypeIconsConfigGUI
  */
 class ilSrFileObjectTypeIconsConfigGUI extends ilPluginConfigGUI
 {

@@ -17,9 +17,10 @@ class ComposerStaticInit2d9d932d1d6e4e5adfa2bf09cb650cb8
             'srag\\RemovePluginDataConfirm\\SrFileObjectTypeIcons\\' => 51,
             'srag\\Plugins\\SrFileObjectTypeIcons\\' => 35,
             'srag\\LibrariesNamespaceChanger\\' => 31,
+            'srag\\DevTools\\' => 14,
             'srag\\DataTableUI\\SrFileObjectTypeIcons\\' => 39,
             'srag\\DIC\\SrFileObjectTypeIcons\\' => 31,
-            'srag\\CustomInputGUIs\\' => 21,
+            'srag\\CustomInputGUIs\\SrFileObjectTypeIcons\\' => 43,
         ),
     );
 
@@ -36,6 +37,10 @@ class ComposerStaticInit2d9d932d1d6e4e5adfa2bf09cb650cb8
         array (
             0 => __DIR__ . '/..' . '/srag/librariesnamespacechanger/src',
         ),
+        'srag\\DevTools\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/srag/devtools/src',
+        ),
         'srag\\DataTableUI\\SrFileObjectTypeIcons\\' => 
         array (
             0 => __DIR__ . '/..' . '/srag/datatable/src',
@@ -44,7 +49,7 @@ class ComposerStaticInit2d9d932d1d6e4e5adfa2bf09cb650cb8
         array (
             0 => __DIR__ . '/..' . '/srag/dic/src',
         ),
-        'srag\\CustomInputGUIs\\' => 
+        'srag\\CustomInputGUIs\\SrFileObjectTypeIcons\\' => 
         array (
             0 => __DIR__ . '/..' . '/srag/custominputguis/src',
         ),
@@ -200,6 +205,7 @@ class ComposerStaticInit2d9d932d1d6e4e5adfa2bf09cb650cb8
         'srag\\DataTableUI\\SrFileObjectTypeIcons\\Implementation\\Table' => __DIR__ . '/..' . '/srag/datatable/src/Implementation/Table.php',
         'srag\\DataTableUI\\SrFileObjectTypeIcons\\Implementation\\Utils\\AbstractTableBuilder' => __DIR__ . '/..' . '/srag/datatable/src/Implementation/Utils/AbstractTableBuilder.php',
         'srag\\DataTableUI\\SrFileObjectTypeIcons\\Implementation\\Utils\\DataTableUITrait' => __DIR__ . '/..' . '/srag/datatable/src/Implementation/Utils/DataTableUITrait.php',
+        'srag\\DevTools\\SrFileObjectTypeIcons\\DevToolsCtrl' => __DIR__ . '/..' . '/srag/devtools/src/class.DevToolsCtrl.php',
         'srag\\LibrariesNamespaceChanger\\GeneratePluginPhpAndXml' => __DIR__ . '/..' . '/srag/librariesnamespacechanger/src/GeneratePluginPhpAndXml.php',
         'srag\\LibrariesNamespaceChanger\\GeneratePluginReadme' => __DIR__ . '/..' . '/srag/librariesnamespacechanger/src/GeneratePluginReadme.php',
         'srag\\LibrariesNamespaceChanger\\LibrariesNamespaceChanger' => __DIR__ . '/..' . '/srag/librariesnamespacechanger/src/LibrariesNamespaceChanger.php',
