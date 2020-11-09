@@ -9,7 +9,7 @@ use ilPluginConfigGUI;
 use ilUtil;
 use srag\DIC\SrFileObjectTypeIcons\DICTrait;
 use srag\DIC\SrFileObjectTypeIcons\Plugin\PluginInterface;
-use srag\DIC\SrFileObjectTypeIcons\Util\LibraryLanguageInstaller;
+use srag\LibraryLanguageInstaller\SrFileObjectTypeIcons\LibraryLanguageInstaller;
 
 /**
  * Class DevToolsCtrl

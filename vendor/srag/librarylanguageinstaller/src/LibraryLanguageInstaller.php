@@ -1,6 +1,6 @@
 <?php
 
-namespace srag\DIC\SrFileObjectTypeIcons\Util;
+namespace srag\LibraryLanguageInstaller\SrFileObjectTypeIcons;
 
 use ilDBConstants;
 use ilGlobalCache;
@@ -12,7 +12,7 @@ use srag\DIC\SrFileObjectTypeIcons\Plugin\PluginInterface;
 /**
  * Class LibraryLanguageInstaller
  *
- * @package srag\DIC\SrFileObjectTypeIcons\Util
+ * @package srag\LibraryLanguageInstaller\SrFileObjectTypeIcons
  *
  * @author  studer + raimann ag - Team Custom 1 <support-custom1@studer-raimann.ch>
  */
