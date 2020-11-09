@@ -1,1 +1,0 @@
-# SrFileObjectTypeIcons ILIAS Plugin Documentation
