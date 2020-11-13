@@ -9,7 +9,7 @@ return array(
     'ilSrFileObjectTypeIconsConfigGUI' => $baseDir . '/classes/class.ilSrFileObjectTypeIconsConfigGUI.php',
     'ilSrFileObjectTypeIconsPlugin' => $baseDir . '/classes/class.ilSrFileObjectTypeIconsPlugin.php',
     'ilSrFileObjectTypeIconsUIHookGUI' => $baseDir . '/classes/class.ilSrFileObjectTypeIconsUIHookGUI.php',
-    'srag\\CustomInputGUIs\\SrFileObjectTypeIcons\\CheckboxInputGUI\\AjaxCheckbox' => $vendorDir . '/srag/custominputguis/src/AjaxCheckbox/AjaxCheckbox.php',
+    'srag\\CustomInputGUIs\\SrFileObjectTypeIcons\\AjaxCheckbox\\AjaxCheckbox' => $vendorDir . '/srag/custominputguis/src/AjaxCheckbox/AjaxCheckbox.php',
     'srag\\CustomInputGUIs\\SrFileObjectTypeIcons\\CheckboxInputGUI\\CheckboxInputGUI' => $vendorDir . '/srag/custominputguis/src/CheckboxInputGUI/CheckboxInputGUI.php',
     'srag\\CustomInputGUIs\\SrFileObjectTypeIcons\\ColorPickerInputGUI\\ColorPickerInputGUI' => $vendorDir . '/srag/custominputguis/src/ColorPickerInputGUI/ColorPickerInputGUI.php',
     'srag\\CustomInputGUIs\\SrFileObjectTypeIcons\\CustomInputGUIs' => $vendorDir . '/srag/custominputguis/src/CustomInputGUIs.php',

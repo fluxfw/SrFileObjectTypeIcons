@@ -1,5 +1,5 @@
 {
-  "name": "srag/plugins/SrFileObjectTypeIcons",
+  "name": "srag/SrFileObjectTypeIcons",
   "description": "",
   "version": "1.0.0",
   "extra": {
@@ -59,7 +59,9 @@
       "srag\\Plugins\\SrFileObjectTypeIcons\\": "src/"
     },
     "classmap": [
-      "classes/"
+      "classes/",
+      "src/FileTypeIcon/class.FileTypeIconsGUI.php",
+      "src/FileTypeIcon/class.FileTypeIconGUI.php"
     ],
     "files": [
       "vendor/srag/dic/src/PHPVersionChecker.php",
