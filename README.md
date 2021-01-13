@@ -2,7 +2,7 @@
 
 # SrFileObjectTypeIcons ILIAS Plugin
 
-
+File type icons for ILIAS file objects
 
 This is an OpenSource project by studer + raimann ag, CH-Burgdorf (https://studer-raimann.ch)
 
