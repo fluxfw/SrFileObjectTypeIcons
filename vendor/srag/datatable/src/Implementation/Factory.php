@@ -16,7 +16,7 @@ use srag\DataTableUI\SrFileObjectTypeIcons\Implementation\Settings\Factory as Se
 use srag\DataTableUI\SrFileObjectTypeIcons\Implementation\Utils\DataTableUITrait;
 use srag\DIC\SrFileObjectTypeIcons\DICTrait;
 use srag\DIC\SrFileObjectTypeIcons\Plugin\PluginInterface;
-use srag\DIC\SrFileObjectTypeIcons\Util\LibraryLanguageInstaller;
+use srag\LibraryLanguageInstaller\SrFileObjectTypeIcons\LibraryLanguageInstaller;
 
 /**
  * Class Factory

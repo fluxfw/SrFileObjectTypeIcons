@@ -4,7 +4,7 @@ namespace srag\RemovePluginDataConfirm\SrFileObjectTypeIcons;
 
 use ilUIPluginRouterGUI;
 use srag\DIC\SrFileObjectTypeIcons\DICTrait;
-use srag\DIC\SrFileObjectTypeIcons\Util\LibraryLanguageInstaller;
+use srag\LibraryLanguageInstaller\SrFileObjectTypeIcons\LibraryLanguageInstaller;
 
 /**
  * Trait BasePluginUninstallTrait

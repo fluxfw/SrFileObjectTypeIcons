@@ -1,6 +1,6 @@
 <?php
 
-namespace srag\CustomInputGUIs\SrFileObjectTypeIcons\CheckboxInputGUI;
+namespace srag\CustomInputGUIs\SrFileObjectTypeIcons\AjaxCheckbox;
 
 use srag\CustomInputGUIs\SrFileObjectTypeIcons\Template\Template;
 use srag\CustomInputGUIs\SrFileObjectTypeIcons\Waiter\Waiter;
@@ -9,7 +9,7 @@ use srag\DIC\SrFileObjectTypeIcons\DICTrait;
 /**
  * Class AjaxCheckbox
  *
- * @package srag\CustomInputGUIs\SrFileObjectTypeIcons\CheckboxInputGUI
+ * @package srag\CustomInputGUIs\SrFileObjectTypeIcons\AjaxCheckbox
  *
  * @author  studer + raimann ag - Team Custom 1 <support-custom1@studer-raimann.ch>
  */

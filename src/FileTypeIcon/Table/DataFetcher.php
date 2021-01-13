@@ -32,9 +32,13 @@ class DataFetcher extends AbstractDataFetcher
     {
         $data = self::srFileObjectTypeIcons()->fileTypeIcons()->getFileTypeIcons();
 
+        $max_count = count($data);
+
+        $data = array_slice($data, $settings->getOffset(), $settings->getRowsCount());
+
         return self::dataTableUI()->data()->data(array_map(function (FileTypeIcon $file_type_icon
         ) : RowData {
             return self::dataTableUI()->data()->row()->getter($file_type_icon->getFileTypeIconId(), $file_type_icon);
-        }, $data), count($data));
+        }, $data), $max_count);
     }
 }

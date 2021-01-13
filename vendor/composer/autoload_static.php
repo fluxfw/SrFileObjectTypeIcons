@@ -7,8 +7,8 @@ namespace Composer\Autoload;
 class ComposerStaticInit2d9d932d1d6e4e5adfa2bf09cb650cb8
 {
     public static $files = array (
-        'be43425ac11b7e23b71d1e8d2f5f127f' => __DIR__ . '/..' . '/srag/dic/src/PHPVersionChecker.php',
-        '4fe2a0404d2806e07260a2767a727029' => __DIR__ . '/..' . '/srag/dic/src/Ilias7PreWarn.php',
+        '65d507c88fce1f1f8345d4683d4814cd' => __DIR__ . '/..' . '/srag/dic/src/PHPVersionChecker.php',
+        'c99f1664badbaf0d8bdb2d278e6afcf8' => __DIR__ . '/..' . '/srag/dic/src/Ilias7PreWarn.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -16,7 +16,10 @@ class ComposerStaticInit2d9d932d1d6e4e5adfa2bf09cb650cb8
         array (
             'srag\\RemovePluginDataConfirm\\SrFileObjectTypeIcons\\' => 51,
             'srag\\Plugins\\SrFileObjectTypeIcons\\' => 35,
+            'srag\\LibraryLanguageInstaller\\SrFileObjectTypeIcons\\' => 52,
             'srag\\LibrariesNamespaceChanger\\' => 31,
+            'srag\\GeneratePluginInfosHelper\\SrFileObjectTypeIcons\\' => 53,
+            'srag\\DevTools\\SrFileObjectTypeIcons\\' => 36,
             'srag\\DataTableUI\\SrFileObjectTypeIcons\\' => 39,
             'srag\\DIC\\SrFileObjectTypeIcons\\' => 31,
             'srag\\CustomInputGUIs\\SrFileObjectTypeIcons\\' => 43,
@@ -32,9 +35,21 @@ class ComposerStaticInit2d9d932d1d6e4e5adfa2bf09cb650cb8
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
+        'srag\\LibraryLanguageInstaller\\SrFileObjectTypeIcons\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/srag/librarylanguageinstaller/src',
+        ),
         'srag\\LibrariesNamespaceChanger\\' => 
         array (
             0 => __DIR__ . '/..' . '/srag/librariesnamespacechanger/src',
+        ),
+        'srag\\GeneratePluginInfosHelper\\SrFileObjectTypeIcons\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/srag/generateplugininfoshelper/src',
+        ),
+        'srag\\DevTools\\SrFileObjectTypeIcons\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/srag/devtools/src',
         ),
         'srag\\DataTableUI\\SrFileObjectTypeIcons\\' => 
         array (
@@ -54,7 +69,7 @@ class ComposerStaticInit2d9d932d1d6e4e5adfa2bf09cb650cb8
         'ilSrFileObjectTypeIconsConfigGUI' => __DIR__ . '/../..' . '/classes/class.ilSrFileObjectTypeIconsConfigGUI.php',
         'ilSrFileObjectTypeIconsPlugin' => __DIR__ . '/../..' . '/classes/class.ilSrFileObjectTypeIconsPlugin.php',
         'ilSrFileObjectTypeIconsUIHookGUI' => __DIR__ . '/../..' . '/classes/class.ilSrFileObjectTypeIconsUIHookGUI.php',
-        'srag\\CustomInputGUIs\\SrFileObjectTypeIcons\\CheckboxInputGUI\\AjaxCheckbox' => __DIR__ . '/..' . '/srag/custominputguis/src/AjaxCheckbox/AjaxCheckbox.php',
+        'srag\\CustomInputGUIs\\SrFileObjectTypeIcons\\AjaxCheckbox\\AjaxCheckbox' => __DIR__ . '/..' . '/srag/custominputguis/src/AjaxCheckbox/AjaxCheckbox.php',
         'srag\\CustomInputGUIs\\SrFileObjectTypeIcons\\CheckboxInputGUI\\CheckboxInputGUI' => __DIR__ . '/..' . '/srag/custominputguis/src/CheckboxInputGUI/CheckboxInputGUI.php',
         'srag\\CustomInputGUIs\\SrFileObjectTypeIcons\\ColorPickerInputGUI\\ColorPickerInputGUI' => __DIR__ . '/..' . '/srag/custominputguis/src/ColorPickerInputGUI/ColorPickerInputGUI.php',
         'srag\\CustomInputGUIs\\SrFileObjectTypeIcons\\CustomInputGUIs' => __DIR__ . '/..' . '/srag/custominputguis/src/CustomInputGUIs.php',
@@ -103,6 +118,7 @@ class ComposerStaticInit2d9d932d1d6e4e5adfa2bf09cb650cb8
         'srag\\CustomInputGUIs\\SrFileObjectTypeIcons\\ViewControlModeUI\\ViewControlModeUI' => __DIR__ . '/..' . '/srag/custominputguis/src/ViewControlModeUI/ViewControlModeUI.php',
         'srag\\CustomInputGUIs\\SrFileObjectTypeIcons\\Waiter\\Waiter' => __DIR__ . '/..' . '/srag/custominputguis/src/Waiter/Waiter.php',
         'srag\\CustomInputGUIs\\SrFileObjectTypeIcons\\WeekdayInputGUI\\WeekdayInputGUI' => __DIR__ . '/..' . '/srag/custominputguis/src/WeekdayInputGUI/WeekdayInputGUI.php',
+        'srag\\DIC\\SrFileObjectTypeIcons\\Cron\\FixUITemplateInCronContext' => __DIR__ . '/..' . '/srag/dic/src/Cron/FixUITemplateInCronContext.php',
         'srag\\DIC\\SrFileObjectTypeIcons\\DICStatic' => __DIR__ . '/..' . '/srag/dic/src/DICStatic.php',
         'srag\\DIC\\SrFileObjectTypeIcons\\DICStaticInterface' => __DIR__ . '/..' . '/srag/dic/src/DICStaticInterface.php',
         'srag\\DIC\\SrFileObjectTypeIcons\\DICTrait' => __DIR__ . '/..' . '/srag/dic/src/DICTrait.php',
@@ -115,7 +131,6 @@ class ComposerStaticInit2d9d932d1d6e4e5adfa2bf09cb650cb8
         'srag\\DIC\\SrFileObjectTypeIcons\\Database\\DatabaseInterface' => __DIR__ . '/..' . '/srag/dic/src/Database/DatabaseInterface.php',
         'srag\\DIC\\SrFileObjectTypeIcons\\Database\\PdoContextHelper' => __DIR__ . '/..' . '/srag/dic/src/Database/PdoContextHelper.php',
         'srag\\DIC\\SrFileObjectTypeIcons\\Database\\PdoStatementContextHelper' => __DIR__ . '/..' . '/srag/dic/src/Database/PdoStatementContextHelper.php',
-        'srag\\DIC\\SrFileObjectTypeIcons\\DevTools\\DevToolsCtrl' => __DIR__ . '/..' . '/srag/dic/src/DevTools/class.DevToolsCtrl.php',
         'srag\\DIC\\SrFileObjectTypeIcons\\Exception\\DICException' => __DIR__ . '/..' . '/srag/dic/src/Exception/DICException.php',
         'srag\\DIC\\SrFileObjectTypeIcons\\Ilias7PreWarn' => __DIR__ . '/..' . '/srag/dic/src/Ilias7PreWarn.php',
         'srag\\DIC\\SrFileObjectTypeIcons\\Loader\\AbstractLoaderDetector' => __DIR__ . '/..' . '/srag/dic/src/Loader/AbstractLoaderDetector.php',
@@ -125,7 +140,6 @@ class ComposerStaticInit2d9d932d1d6e4e5adfa2bf09cb650cb8
         'srag\\DIC\\SrFileObjectTypeIcons\\Plugin\\Plugin' => __DIR__ . '/..' . '/srag/dic/src/Plugin/Plugin.php',
         'srag\\DIC\\SrFileObjectTypeIcons\\Plugin\\PluginInterface' => __DIR__ . '/..' . '/srag/dic/src/Plugin/PluginInterface.php',
         'srag\\DIC\\SrFileObjectTypeIcons\\Plugin\\Pluginable' => __DIR__ . '/..' . '/srag/dic/src/Plugin/Pluginable.php',
-        'srag\\DIC\\SrFileObjectTypeIcons\\Util\\LibraryLanguageInstaller' => __DIR__ . '/..' . '/srag/dic/src/Util/LibraryLanguageInstaller.php',
         'srag\\DIC\\SrFileObjectTypeIcons\\Version\\Version' => __DIR__ . '/..' . '/srag/dic/src/Version/Version.php',
         'srag\\DIC\\SrFileObjectTypeIcons\\Version\\VersionInterface' => __DIR__ . '/..' . '/srag/dic/src/Version/VersionInterface.php',
         'srag\\DataTableUI\\SrFileObjectTypeIcons\\Component\\Column\\Column' => __DIR__ . '/..' . '/srag/datatable/src/Component/Column/Column.php',
@@ -200,12 +214,14 @@ class ComposerStaticInit2d9d932d1d6e4e5adfa2bf09cb650cb8
         'srag\\DataTableUI\\SrFileObjectTypeIcons\\Implementation\\Table' => __DIR__ . '/..' . '/srag/datatable/src/Implementation/Table.php',
         'srag\\DataTableUI\\SrFileObjectTypeIcons\\Implementation\\Utils\\AbstractTableBuilder' => __DIR__ . '/..' . '/srag/datatable/src/Implementation/Utils/AbstractTableBuilder.php',
         'srag\\DataTableUI\\SrFileObjectTypeIcons\\Implementation\\Utils\\DataTableUITrait' => __DIR__ . '/..' . '/srag/datatable/src/Implementation/Utils/DataTableUITrait.php',
-        'srag\\LibrariesNamespaceChanger\\GeneratePluginPhpAndXml' => __DIR__ . '/..' . '/srag/librariesnamespacechanger/src/GeneratePluginPhpAndXml.php',
+        'srag\\DevTools\\SrFileObjectTypeIcons\\DevToolsCtrl' => __DIR__ . '/..' . '/srag/devtools/src/class.DevToolsCtrl.php',
+        'srag\\GeneratePluginInfosHelper\\SrFileObjectTypeIcons\\GeneratePluginPhpAndXml' => __DIR__ . '/..' . '/srag/generateplugininfoshelper/src/GeneratePluginPhpAndXml.php',
+        'srag\\GeneratePluginInfosHelper\\SrFileObjectTypeIcons\\GeneratePluginReadme' => __DIR__ . '/..' . '/srag/generateplugininfoshelper/src/GeneratePluginReadme.php',
         'srag\\LibrariesNamespaceChanger\\LibrariesNamespaceChanger' => __DIR__ . '/..' . '/srag/librariesnamespacechanger/src/LibrariesNamespaceChanger.php',
         'srag\\LibrariesNamespaceChanger\\PHP72Backport' => __DIR__ . '/..' . '/srag/librariesnamespacechanger/src/PHP72Backport.php',
         'srag\\LibrariesNamespaceChanger\\PHP7Backport' => __DIR__ . '/..' . '/srag/librariesnamespacechanger/src/PHP7Backport.php',
         'srag\\LibrariesNamespaceChanger\\RemovePHP72Backport' => __DIR__ . '/..' . '/srag/librariesnamespacechanger/src/RemovePHP72Backport.php',
-        'srag\\LibrariesNamespaceChanger\\UpdatePluginReadme' => __DIR__ . '/..' . '/srag/librariesnamespacechanger/src/UpdatePluginReadme.php',
+        'srag\\LibraryLanguageInstaller\\SrFileObjectTypeIcons\\LibraryLanguageInstaller' => __DIR__ . '/..' . '/srag/librarylanguageinstaller/src/LibraryLanguageInstaller.php',
         'srag\\Plugins\\SrFileObjectTypeIcons\\FileTypeIcon\\Factory' => __DIR__ . '/../..' . '/src/FileTypeIcon/Factory.php',
         'srag\\Plugins\\SrFileObjectTypeIcons\\FileTypeIcon\\FileTypeIcon' => __DIR__ . '/../..' . '/src/FileTypeIcon/FileTypeIcon.php',
         'srag\\Plugins\\SrFileObjectTypeIcons\\FileTypeIcon\\FileTypeIconFormGUI' => __DIR__ . '/../..' . '/src/FileTypeIcon/FileTypeIconFormGUI.php',

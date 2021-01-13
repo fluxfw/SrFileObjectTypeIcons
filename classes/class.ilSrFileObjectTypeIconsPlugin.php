@@ -18,7 +18,7 @@ use ILIAS\UI\Component\Symbol\Icon\Custom;
 use ILIAS\UI\Component\Symbol\Icon\Standard;
 use srag\CustomInputGUIs\SrFileObjectTypeIcons\Loader\CustomInputGUIsLoaderDetector;
 use srag\DataTableUI\SrFileObjectTypeIcons\Implementation\Utils\DataTableUITrait;
-use srag\DIC\SrFileObjectTypeIcons\DevTools\DevToolsCtrl;
+use srag\DevTools\SrFileObjectTypeIcons\DevToolsCtrl;
 use srag\Plugins\SrFileObjectTypeIcons\Utils\SrFileObjectTypeIconsTrait;
 use srag\Plugins\SrTile\Tile\Tile;
 use srag\RemovePluginDataConfirm\SrFileObjectTypeIcons\PluginUninstallTrait;

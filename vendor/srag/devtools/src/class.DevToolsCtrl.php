@@ -1,6 +1,6 @@
 <?php
 
-namespace srag\DIC\SrFileObjectTypeIcons\DevTools;
+namespace srag\DevTools\SrFileObjectTypeIcons;
 
 use ilAdministrationGUI;
 use ilDBConstants;
@@ -9,12 +9,12 @@ use ilPluginConfigGUI;
 use ilUtil;
 use srag\DIC\SrFileObjectTypeIcons\DICTrait;
 use srag\DIC\SrFileObjectTypeIcons\Plugin\PluginInterface;
-use srag\DIC\SrFileObjectTypeIcons\Util\LibraryLanguageInstaller;
+use srag\LibraryLanguageInstaller\SrFileObjectTypeIcons\LibraryLanguageInstaller;
 
 /**
  * Class DevToolsCtrl
  *
- * @package srag\DIC\SrFileObjectTypeIcons\DevTools
+ * @package srag\DevTools\SrFileObjectTypeIcons
  *
  * @author  studer + raimann ag - Team Custom 1 <support-custom1@studer-raimann.ch>
  */
@@ -69,7 +69,7 @@ class DevToolsCtrl
      */
     public static function installLanguages(PluginInterface $plugin)/*:void*/
     {
-        LibraryLanguageInstaller::getInstance()->withPlugin($plugin)->withLibraryLanguageDirectory(__DIR__ . "/lang")->updateLanguages();
+        LibraryLanguageInstaller::getInstance()->withPlugin($plugin)->withLibraryLanguageDirectory(__DIR__ . "/../lang")->updateLanguages();
     }
 
 

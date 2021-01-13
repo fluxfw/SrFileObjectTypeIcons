@@ -8,7 +8,10 @@ $baseDir = dirname($vendorDir);
 return array(
     'srag\\RemovePluginDataConfirm\\SrFileObjectTypeIcons\\' => array($vendorDir . '/srag/removeplugindataconfirm/src'),
     'srag\\Plugins\\SrFileObjectTypeIcons\\' => array($baseDir . '/src'),
+    'srag\\LibraryLanguageInstaller\\SrFileObjectTypeIcons\\' => array($vendorDir . '/srag/librarylanguageinstaller/src'),
     'srag\\LibrariesNamespaceChanger\\' => array($vendorDir . '/srag/librariesnamespacechanger/src'),
+    'srag\\GeneratePluginInfosHelper\\SrFileObjectTypeIcons\\' => array($vendorDir . '/srag/generateplugininfoshelper/src'),
+    'srag\\DevTools\\SrFileObjectTypeIcons\\' => array($vendorDir . '/srag/devtools/src'),
     'srag\\DataTableUI\\SrFileObjectTypeIcons\\' => array($vendorDir . '/srag/datatable/src'),
     'srag\\DIC\\SrFileObjectTypeIcons\\' => array($vendorDir . '/srag/dic/src'),
     'srag\\CustomInputGUIs\\SrFileObjectTypeIcons\\' => array($vendorDir . '/srag/custominputguis/src'),
