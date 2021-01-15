@@ -28,9 +28,13 @@
   },
   "type": "project",
   "keywords": [
+    "file",
+    "icon",
     "ilias",
     "interface",
+    "object",
     "plugin",
+    "type",
     "user"
   ],
   "homepage": "https://github.com/studer-raimann/SrFileObjectTypeIcons",
