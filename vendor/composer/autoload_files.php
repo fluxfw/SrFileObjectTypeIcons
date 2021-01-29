@@ -6,5 +6,6 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    '3389f8852cf7cdfb072996473b97681c' => $baseDir . '/src/optional_plugins.php',
     '65d507c88fce1f1f8345d4683d4814cd' => $vendorDir . '/srag/dic/src/PHPVersionChecker.php',
 );

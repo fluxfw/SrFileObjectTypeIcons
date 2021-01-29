@@ -2,6 +2,8 @@
 
 namespace srag\Plugins\SrFileObjectTypeIcons\FileTypeIcon;
 
+require_once __DIR__ . "/../../vendor/autoload.php";
+
 use ilSrFileObjectTypeIconsPlugin;
 use srag\DIC\SrFileObjectTypeIcons\DICTrait;
 use srag\Plugins\SrFileObjectTypeIcons\Utils\SrFileObjectTypeIconsTrait;

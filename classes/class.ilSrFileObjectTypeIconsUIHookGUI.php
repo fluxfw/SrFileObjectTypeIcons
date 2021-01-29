@@ -1,5 +1,7 @@
 <?php
 
+require_once __DIR__ . "/../vendor/autoload.php";
+
 use ILIAS\Services\UICore\MetaTemplate\PageContentGUI;
 use srag\DIC\SrFileObjectTypeIcons\DICTrait;
 use srag\Plugins\SrFileObjectTypeIcons\Utils\SrFileObjectTypeIconsTrait;

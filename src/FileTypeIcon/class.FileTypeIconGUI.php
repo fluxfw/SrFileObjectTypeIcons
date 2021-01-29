@@ -2,6 +2,8 @@
 
 namespace srag\Plugins\SrFileObjectTypeIcons\FileTypeIcon;
 
+require_once __DIR__ . "/../../vendor/autoload.php";
+
 use ilConfirmationGUI;
 use ilSrFileObjectTypeIconsPlugin;
 use ilUtil;
