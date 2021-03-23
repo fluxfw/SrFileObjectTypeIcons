@@ -1,7 +1,7 @@
 {
   "name": "srag/srfileobjecttypeicons",
   "description": "File type icons for ILIAS file objects",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "extra": {
     "ilias_plugin": {
       "id": "srfilobjtypicns",
@@ -25,7 +25,7 @@
         }
       ]
     },
-    "generate_plugin_readme_template": "SRAG_ILIAS_PLUGIN",
+    "generate_plugin_readme_template": "ILIAS_PLUGIN",
     "long_description_template": "src/LONG_DESCRIPTION.md"
   },
   "type": "project",
@@ -49,9 +49,6 @@
       "role": "Developer"
     }
   ],
-  "support": {
-    "issues": "https://plugins.studer-raimann.ch/goto.php?target=uihk_srsu_PLFOTI"
-  },
   "require": {
     "php": ">=7.0",
     "srag/custominputguis": ">=0.1.0",
