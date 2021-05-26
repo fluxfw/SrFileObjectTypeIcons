@@ -10,8 +10,6 @@ use srag\DIC\SrFileObjectTypeIcons\DICTrait;
  * Class TabsInputGUITab
  *
  * @package srag\CustomInputGUIs\SrFileObjectTypeIcons\TabsInputGUI
- *
- * @author  studer + raimann ag - Team Custom 1 <support-custom1@studer-raimann.ch>
  */
 class TabsInputGUITab
 {

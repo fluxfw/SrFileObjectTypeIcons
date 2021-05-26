@@ -10,8 +10,6 @@ use srag\DataTableUI\SrFileObjectTypeIcons\Component\Table;
  * Interface Format
  *
  * @package srag\DataTableUI\SrFileObjectTypeIcons\Component\Format
- *
- * @author  studer + raimann ag - Team Custom 1 <support-custom1@studer-raimann.ch>
  */
 interface Format
 {

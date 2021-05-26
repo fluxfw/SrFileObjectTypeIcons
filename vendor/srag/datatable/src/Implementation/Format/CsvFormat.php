@@ -13,8 +13,6 @@ use srag\DataTableUI\SrFileObjectTypeIcons\Component\Table;
  * Class CsvFormat
  *
  * @package srag\DataTableUI\SrFileObjectTypeIcons\Implementation\Format
- *
- * @author  studer + raimann ag - Team Custom 1 <support-custom1@studer-raimann.ch>
  */
 class CsvFormat extends AbstractFormat
 {

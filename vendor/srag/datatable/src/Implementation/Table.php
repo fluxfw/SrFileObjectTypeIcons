@@ -19,8 +19,6 @@ use srag\DIC\SrFileObjectTypeIcons\Plugin\PluginInterface;
  * Class Table
  *
  * @package srag\DataTableUI\SrFileObjectTypeIcons\Implementation
- *
- * @author  studer + raimann ag - Team Custom 1 <support-custom1@studer-raimann.ch>
  */
 class Table implements TableInterface
 {

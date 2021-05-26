@@ -12,8 +12,6 @@ use srag\DIC\SrFileObjectTypeIcons\Version\PluginVersionParameter;
  * Class TextInputGUIWithModernAutoComplete
  *
  * @package srag\CustomInputGUIs\SrFileObjectTypeIcons\TextInputGUI
- *
- * @author  studer + raimann ag - Team Custom 1 <support-custom1@studer-raimann.ch>
  */
 class TextInputGUIWithModernAutoComplete extends TextInputGUI
 {

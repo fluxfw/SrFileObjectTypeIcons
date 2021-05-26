@@ -14,8 +14,6 @@ use srag\Plugins\SrFileObjectTypeIcons\Utils\SrFileObjectTypeIconsTrait;
  * Class DataFetcher
  *
  * @package srag\Plugins\SrFileObjectTypeIcons\FileTypeIcon\Table
- *
- * @author  studer + raimann ag - Team Custom 1 <support-custom1@studer-raimann.ch>
  */
 class DataFetcher extends AbstractDataFetcher
 {

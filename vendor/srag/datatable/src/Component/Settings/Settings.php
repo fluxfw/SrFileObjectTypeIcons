@@ -10,8 +10,6 @@ use srag\DataTableUI\SrFileObjectTypeIcons\Component\Settings\Sort\SortField;
  * Interface Settings
  *
  * @package srag\DataTableUI\SrFileObjectTypeIcons\Component\Settings
- *
- * @author  studer + raimann ag - Team Custom 1 <support-custom1@studer-raimann.ch>
  */
 interface Settings
 {

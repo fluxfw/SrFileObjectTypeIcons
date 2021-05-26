@@ -8,8 +8,6 @@ use Throwable;
  * Class PHPVersionChecker
  *
  * @package srag\DIC\SrFileObjectTypeIcons
- *
- * @author  studer + raimann ag - Team Custom 1 <support-custom1@studer-raimann.ch>
  */
 final class PHPVersionChecker
 {

@@ -17,8 +17,6 @@ use srag\DIC\SrFileObjectTypeIcons\DICTrait;
  *
  * @package           srag\RemovePluginDataConfirm\SrFileObjectTypeIcons
  *
- * @author            studer + raimann ag - Team Custom 1 <support-custom1@studer-raimann.ch>
- *
  * @ilCtrl_isCalledBy srag\RemovePluginDataConfirm\SrFileObjectTypeIcons\RemovePluginDataConfirmCtrl: ilUIPluginRouterGUI
  */
 class RemovePluginDataConfirmCtrl

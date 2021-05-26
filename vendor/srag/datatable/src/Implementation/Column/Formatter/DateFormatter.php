@@ -12,8 +12,6 @@ use srag\DataTableUI\SrFileObjectTypeIcons\Component\Format\Format;
  * Class DateFormatter
  *
  * @package srag\DataTableUI\SrFileObjectTypeIcons\Implementation\Column\Formatter
- *
- * @author  studer + raimann ag - Team Custom 1 <support-custom1@studer-raimann.ch>
  */
 class DateFormatter extends DefaultFormatter
 {
