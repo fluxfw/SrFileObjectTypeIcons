@@ -10,8 +10,6 @@ use srag\DIC\SrFileObjectTypeIcons\DICTrait;
  * Class AbstractRowData
  *
  * @package srag\DataTableUI\SrFileObjectTypeIcons\Implementation\Data\Row
- *
- * @author  studer + raimann ag - Team Custom 1 <support-custom1@studer-raimann.ch>
  */
 abstract class AbstractRowData implements RowData
 {

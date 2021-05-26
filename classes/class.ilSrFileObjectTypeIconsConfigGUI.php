@@ -10,8 +10,6 @@ use srag\Plugins\SrFileObjectTypeIcons\Utils\SrFileObjectTypeIconsTrait;
 /**
  * Class ilSrFileObjectTypeIconsConfigGUI
  *
- * @author            studer + raimann ag - Team Custom 1 <support-custom1@studer-raimann.ch>
- *
  * @ilCtrl_isCalledBy srag\DevTools\SrFileObjectTypeIcons\DevToolsCtrl: ilSrFileObjectTypeIconsConfigGUI
  */
 class ilSrFileObjectTypeIconsConfigGUI extends ilPluginConfigGUI

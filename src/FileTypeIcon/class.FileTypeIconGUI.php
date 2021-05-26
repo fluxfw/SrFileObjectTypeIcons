@@ -15,8 +15,6 @@ use srag\Plugins\SrFileObjectTypeIcons\Utils\SrFileObjectTypeIconsTrait;
  *
  * @package           srag\Plugins\SrFileObjectTypeIcons\FileTypeIcon
  *
- * @author            studer + raimann ag - Team Custom 1 <support-custom1@studer-raimann.ch>
- *
  * @ilCtrl_isCalledBy srag\Plugins\SrFileObjectTypeIcons\FileTypeIcon\FileTypeIconGUI: srag\Plugins\SrFileObjectTypeIcons\FileTypeIcon\FileTypeIconsGUI
  */
 class FileTypeIconGUI

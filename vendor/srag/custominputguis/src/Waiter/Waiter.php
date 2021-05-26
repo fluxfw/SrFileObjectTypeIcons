@@ -12,8 +12,6 @@ use srag\DIC\SrFileObjectTypeIcons\Version\PluginVersionParameter;
  * Class Waiter
  *
  * @package srag\CustomInputGUIs\SrFileObjectTypeIcons\Waiter
- *
- * @author  studer + raimann ag - Team Custom 1 <support-custom1@studer-raimann.ch>
  */
 final class Waiter
 {

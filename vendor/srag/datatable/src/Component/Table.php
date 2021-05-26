@@ -17,8 +17,6 @@ use srag\DIC\SrFileObjectTypeIcons\Plugin\PluginInterface;
  * Interface Table
  *
  * @package srag\DataTableUI\SrFileObjectTypeIcons\Component
- *
- * @author  studer + raimann ag - Team Custom 1 <support-custom1@studer-raimann.ch>
  */
 interface Table extends Component, Pluginable
 {

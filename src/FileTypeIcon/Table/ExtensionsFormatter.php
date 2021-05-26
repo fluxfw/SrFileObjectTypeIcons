@@ -11,8 +11,6 @@ use srag\DataTableUI\SrFileObjectTypeIcons\Implementation\Column\Formatter\Defau
  * Class ExtensionsFormatter
  *
  * @package srag\Plugins\SrFileObjectTypeIcons\FileTypeIcon\Table
- *
- * @author  studer + raimann ag - Team Custom 1 <support-custom1@studer-raimann.ch>
  */
 class ExtensionsFormatter extends DefaultFormatter
 {

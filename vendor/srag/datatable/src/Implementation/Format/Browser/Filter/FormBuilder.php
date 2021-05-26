@@ -13,8 +13,6 @@ use srag\DataTableUI\SrFileObjectTypeIcons\Implementation\Utils\DataTableUITrait
  * Class FormBuilder
  *
  * @package srag\DataTableUI\SrFileObjectTypeIcons\Implementation\Format\Browser\Filter
- *
- * @author  studer + raimann ag - Team Custom 1 <support-custom1@studer-raimann.ch>
  */
 class FormBuilder extends AbstractFormBuilder
 {
