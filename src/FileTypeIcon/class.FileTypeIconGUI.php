@@ -51,7 +51,7 @@ class FileTypeIconGUI
     /**
      *
      */
-    public function executeCommand()/*: void*/
+    public function executeCommand() : void
     {
         $this->file_type_icon = self::srFileObjectTypeIcons()->fileTypeIcons()->getFileTypeIconById(intval(filter_input(INPUT_GET, self::GET_PARAM_FILE_TYPE_ICON_ID)));
 
@@ -87,7 +87,7 @@ class FileTypeIconGUI
     /**
      *
      */
-    protected function addFileTypeIcon()/*: void*/
+    protected function addFileTypeIcon() : void
     {
         $form = self::srFileObjectTypeIcons()->fileTypeIcons()->factory()->newFormInstance($this, $this->file_type_icon);
 
@@ -98,7 +98,7 @@ class FileTypeIconGUI
     /**
      *
      */
-    protected function back()/*: void*/
+    protected function back() : void
     {
         self::dic()->ctrl()->redirectByClass(FileTypeIconsGUI::class, FileTypeIconsGUI::CMD_LIST_FILE_TYPE_ICONS);
     }
@@ -107,7 +107,7 @@ class FileTypeIconGUI
     /**
      *
      */
-    protected function createFileTypeIcon()/*: void*/
+    protected function createFileTypeIcon() : void
     {
         $form = self::srFileObjectTypeIcons()->fileTypeIcons()->factory()->newFormInstance($this, $this->file_type_icon);
 
@@ -128,7 +128,7 @@ class FileTypeIconGUI
     /**
      *
      */
-    protected function editFileTypeIcon()/*: void*/
+    protected function editFileTypeIcon() : void
     {
         self::dic()->tabs()->activateTab(self::TAB_EDIT_FILE_TYPE_ICON);
 
@@ -141,7 +141,7 @@ class FileTypeIconGUI
     /**
      *
      */
-    protected function removeFileTypeIcon()/*: void*/
+    protected function removeFileTypeIcon() : void
     {
         self::srFileObjectTypeIcons()->fileTypeIcons()->deleteFileTypeIcon($this->file_type_icon);
 
@@ -154,7 +154,7 @@ class FileTypeIconGUI
     /**
      *
      */
-    protected function removeFileTypeIconConfirm()/*: void*/
+    protected function removeFileTypeIconConfirm() : void
     {
         $confirmation = new ilConfirmationGUI();
 
@@ -174,7 +174,7 @@ class FileTypeIconGUI
     /**
      *
      */
-    protected function setTabs()/*: void*/
+    protected function setTabs() : void
     {
         self::dic()->tabs()->clearTargets();
 
@@ -202,7 +202,7 @@ class FileTypeIconGUI
     /**
      *
      */
-    protected function updateFileTypeIcon()/*: void*/
+    protected function updateFileTypeIcon() : void
     {
         self::dic()->tabs()->activateTab(self::TAB_EDIT_FILE_TYPE_ICON);
 

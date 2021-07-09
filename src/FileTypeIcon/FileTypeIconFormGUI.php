@@ -92,7 +92,7 @@ class FileTypeIconFormGUI extends PropertyFormGUI
     /**
      * @inheritDoc
      */
-    protected function initCommands()/*: void*/
+    protected function initCommands() : void
     {
         if (!empty($this->file_type_icon->getFileTypeIconId())) {
             $this->addCommandButton(FileTypeIconGUI::CMD_UPDATE_FILE_TYPE_ICON, $this->txt("save"));
@@ -106,7 +106,7 @@ class FileTypeIconFormGUI extends PropertyFormGUI
     /**
      * @inheritDoc
      */
-    protected function initFields()/*: void*/
+    protected function initFields() : void
     {
         $this->fields = [
             "icon"       => [
@@ -133,7 +133,7 @@ class FileTypeIconFormGUI extends PropertyFormGUI
     /**
      * @inheritDoc
      */
-    protected function initId()/*: void*/
+    protected function initId() : void
     {
 
     }
@@ -142,7 +142,7 @@ class FileTypeIconFormGUI extends PropertyFormGUI
     /**
      * @inheritDoc
      */
-    protected function initTitle()/*: void*/
+    protected function initTitle() : void
     {
         if (!empty($this->file_type_icon->getFileTypeIconId())) {
             $this->setTitle($this->txt("edit_file_type_icon"));
@@ -155,7 +155,7 @@ class FileTypeIconFormGUI extends PropertyFormGUI
     /**
      * @inheritDoc
      */
-    protected function storeValue(string $key, $value)/*: void*/
+    protected function storeValue(string $key, $value) : void
     {
         switch ($key) {
             case "extensions":

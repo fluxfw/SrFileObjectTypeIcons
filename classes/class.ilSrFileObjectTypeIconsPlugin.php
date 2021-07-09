@@ -78,7 +78,7 @@ class ilSrFileObjectTypeIconsPlugin extends ilUserInterfaceHookPlugin
     /**
      * @inheritDoc
      */
-    public function handleEvent(/*string*/ $a_component, /*string*/ $a_event, /*array*/ $a_parameter)/* : void*/
+    public function handleEvent(/*string*/ $a_component, /*string*/ $a_event, /*array*/ $a_parameter) : void
     {
         if (file_exists(__DIR__ . "/../../SrContainerObjectMenu/vendor/autoload.php")) {
             switch ($a_component) {
@@ -133,7 +133,7 @@ class ilSrFileObjectTypeIconsPlugin extends ilUserInterfaceHookPlugin
     /**
      * @inheritDoc
      */
-    public function updateLanguages(/*?array*/ $a_lang_keys = null)/*:void*/
+    public function updateLanguages(/*?array*/ $a_lang_keys = null) : void
     {
         parent::updateLanguages($a_lang_keys);
 
@@ -148,7 +148,7 @@ class ilSrFileObjectTypeIconsPlugin extends ilUserInterfaceHookPlugin
     /**
      * @param array $child
      */
-    protected function changeChildBeforeOutput(array &$child)/* : void*/
+    protected function changeChildBeforeOutput(array &$child) : void
     {
         $child["icon"] = self::srFileObjectTypeIcons()->fileTypeIcons()->replaceFileIconsPart($child["icon"], $child["ref_id"], true);
     }
@@ -158,7 +158,7 @@ class ilSrFileObjectTypeIconsPlugin extends ilUserInterfaceHookPlugin
      * @param AbstractBaseItem $entry
      * @param int              $obj_id
      */
-    protected function changeMenuEntry(AbstractBaseItem &$entry, int $obj_id)/* : void*/
+    protected function changeMenuEntry(AbstractBaseItem &$entry, int $obj_id) : void
     {
         if ($entry instanceof hasSymbol && $entry->hasSymbol()) {
             $symbol = $entry->getSymbol();
@@ -187,7 +187,7 @@ class ilSrFileObjectTypeIconsPlugin extends ilUserInterfaceHookPlugin
     /**
      * @param Tile $tile
      */
-    protected function changeTileBeforeRender(Tile $tile)/* : void*/
+    protected function changeTileBeforeRender(Tile $tile) : void
     {
         $tile->setCustomIcon(self::srFileObjectTypeIcons()->fileTypeIcons()->replaceFileIconsPart($tile->getIcon(), $tile->getObjRefId(), true));
     }
@@ -196,7 +196,7 @@ class ilSrFileObjectTypeIconsPlugin extends ilUserInterfaceHookPlugin
     /**
      * @inheritDoc
      */
-    protected function deleteData()/*: void*/
+    protected function deleteData() : void
     {
         self::srFileObjectTypeIcons()->dropTables();
     }

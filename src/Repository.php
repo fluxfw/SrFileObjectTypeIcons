@@ -50,7 +50,7 @@ final class Repository
     /**
      *
      */
-    public function dropTables()/*:void*/
+    public function dropTables() : void
     {
         $this->fileTypeIcons()->dropTables();
     }
@@ -68,7 +68,7 @@ final class Repository
     /**
      *
      */
-    public function installTables()/*:void*/
+    public function installTables() : void
     {
         $this->fileTypeIcons()->installTables();
     }
