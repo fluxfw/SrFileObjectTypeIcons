@@ -1,5 +1,8 @@
 # Changelog
 
+## [1.2.0]
+- Remove ILIAS 5.4 support
+
 ## [1.1.5]
 - Change utils url
 

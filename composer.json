@@ -1,12 +1,12 @@
 {
   "name": "srag/srfileobjecttypeicons",
   "description": "File type icons for ILIAS file objects",
-  "version": "1.1.5",
+  "version": "1.2.0",
   "extra": {
     "ilias_plugin": {
       "id": "srfilobjtypicns",
       "name": "SrFileObjectTypeIcons",
-      "ilias_min_version": "5.4.0",
+      "ilias_min_version": "6.0",
       "ilias_max_version": "6.999",
       "slot": "Services/UIComponent/UserInterfaceHook",
       "events": [

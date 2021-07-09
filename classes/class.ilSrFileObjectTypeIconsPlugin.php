@@ -160,28 +160,26 @@ class ilSrFileObjectTypeIconsPlugin extends ilUserInterfaceHookPlugin
      */
     protected function changeMenuEntry(AbstractBaseItem &$entry, int $obj_id)/* : void*/
     {
-        if (self::version()->is6()) {
-            if ($entry instanceof hasSymbol && $entry->hasSymbol()) {
-                $symbol = $entry->getSymbol();
+        if ($entry instanceof hasSymbol && $entry->hasSymbol()) {
+            $symbol = $entry->getSymbol();
 
-                if ($symbol instanceof Custom) {
-                    $icon = $icon_org = $symbol->getIconPath();
+            if ($symbol instanceof Custom) {
+                $icon = $icon_org = $symbol->getIconPath();
+            } else {
+                if ($symbol instanceof Standard) {
+                    $icon = $icon_org = ilUtil::getImagePath("icon_" . $symbol->getName() . ".svg");
                 } else {
-                    if ($symbol instanceof Standard) {
-                        $icon = $icon_org = ilUtil::getImagePath("icon_" . $symbol->getName() . ".svg");
-                    } else {
-                        return;
-                    }
-                }
-
-                $icon = self::srFileObjectTypeIcons()->fileTypeIcons()->replaceFileIconsPart($icon, $obj_id, false);
-
-                if ($icon === $icon_org) {
                     return;
                 }
-
-                $entry = $entry->withSymbol(self::dic()->ui()->factory()->symbol()->icon()->custom($icon, $symbol->getAriaLabel()));
             }
+
+            $icon = self::srFileObjectTypeIcons()->fileTypeIcons()->replaceFileIconsPart($icon, $obj_id, false);
+
+            if ($icon === $icon_org) {
+                return;
+            }
+
+            $entry = $entry->withSymbol(self::dic()->ui()->factory()->symbol()->icon()->custom($icon, $symbol->getAriaLabel()));
         }
     }
 
