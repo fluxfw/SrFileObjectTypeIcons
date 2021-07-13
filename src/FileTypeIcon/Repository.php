@@ -3,6 +3,7 @@
 namespace srag\Plugins\SrFileObjectTypeIcons\FileTypeIcon;
 
 use ilObjFile;
+use ilObjFileAccess;
 use ilSrFileObjectTypeIconsPlugin;
 use ilUtil;
 use srag\DIC\SrFileObjectTypeIcons\DICTrait;
@@ -293,7 +294,14 @@ final class Repository
         if ($extension === null) {
             $obj = new ilObjFile($obj_id, false);
 
-            $extension = strval($obj->getFileExtension());
+            if (self::version()->is7()) {
+                // TODO: NotImplementedException
+                //$extension = strval($obj->getFileExtension());
+
+                $extension = strval(ilObjFileAccess::_getFileExtension($obj->getTitle()));
+            } else {
+                $extension = strval($obj->getFileExtension());
+            }
 
             $this->file_object_extension[$obj_id] = $extension;
         }
