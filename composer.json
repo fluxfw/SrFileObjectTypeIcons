@@ -23,9 +23,7 @@
           "type": "listen"
         }
       ]
-    },
-    "generate_plugin_readme_template": "ILIAS_PLUGIN",
-    "long_description_template": "src/LONG_DESCRIPTION.md"
+    }
   },
   "type": "project",
   "keywords": [
@@ -80,8 +78,7 @@
   "scripts": {
     "pre-autoload-dump": [
       "srag\\LibrariesNamespaceChanger\\LibrariesNamespaceChanger::rewriteLibrariesNamespaces",
-      "srag\\GeneratePluginInfosHelper\\SrFileObjectTypeIcons\\GeneratePluginPhpAndXml::generatePluginPhpAndXml",
-      "srag\\GeneratePluginInfosHelper\\SrFileObjectTypeIcons\\GeneratePluginReadme::generatePluginReadme"
+      "srag\\GeneratePluginInfosHelper\\SrFileObjectTypeIcons\\GeneratePluginPhpAndXml::generatePluginPhpAndXml"
     ],
     "update-version": [
       "srag\\GeneratePluginInfosHelper\\SrFileObjectTypeIcons\\UpdateVersion::updateVersion"
