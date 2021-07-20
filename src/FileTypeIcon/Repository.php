@@ -3,6 +3,7 @@
 namespace srag\Plugins\SrFileObjectTypeIcons\FileTypeIcon;
 
 use ilObjFile;
+use ilObjFileAccess;
 use ilSrFileObjectTypeIconsPlugin;
 use ilUtil;
 use srag\DIC\SrFileObjectTypeIcons\DICTrait;
@@ -63,7 +64,7 @@ final class Repository
     /**
      * @param FileTypeIcon $file_type_icon
      */
-    public function deleteFileTypeIcon(FileTypeIcon $file_type_icon)/*: void*/
+    public function deleteFileTypeIcon(FileTypeIcon $file_type_icon) : void
     {
         $file_type_icon->applyNewIcon();
 
@@ -74,7 +75,7 @@ final class Repository
     /**
      * @internal
      */
-    public function dropTables()/*:void*/
+    public function dropTables() : void
     {
         self::dic()->database()->dropTable(FileTypeIcon::TABLE_NAME, false);
         ilUtil::delDir(ILIAS_WEB_DIR . "/" . CLIENT_ID . "/" . ilSrFileObjectTypeIconsPlugin::WEB_DATA_FOLDER);
@@ -95,7 +96,7 @@ final class Repository
      *
      * @return FileTypeIcon|null
      */
-    public function getFileTypeIconByExtension(string $extension)/*: ?FileTypeIcon*/
+    public function getFileTypeIconByExtension(string $extension) : ?FileTypeIcon
     {
         /**
          * @var FileTypeIcon|null $file_type_icon
@@ -122,7 +123,7 @@ final class Repository
      *
      * @return FileTypeIcon|null
      */
-    public function getFileTypeIconById(int $file_type_icon_id)/*: ?FileTypeIcon*/
+    public function getFileTypeIconById(int $file_type_icon_id) : ?FileTypeIcon
     {
         /**
          * @var FileTypeIcon|null $file_type_icon
@@ -152,7 +153,7 @@ final class Repository
     /**
      * @internal
      */
-    public function installTables()/*:void*/
+    public function installTables() : void
     {
         FileTypeIcon::updateDB();
     }
@@ -272,7 +273,7 @@ final class Repository
     /**
      * @param FileTypeIcon $file_type_icon
      */
-    public function storeFileTypeIcon(FileTypeIcon $file_type_icon)/*: void*/
+    public function storeFileTypeIcon(FileTypeIcon $file_type_icon) : void
     {
         $file_type_icon->store();
 
@@ -293,7 +294,14 @@ final class Repository
         if ($extension === null) {
             $obj = new ilObjFile($obj_id, false);
 
-            $extension = strval($obj->getFileExtension());
+            if (self::version()->is7()) {
+                // TODO: NotImplementedException
+                //$extension = strval($obj->getFileExtension());
+
+                $extension = strval(ilObjFileAccess::_getFileExtension($obj->getTitle()));
+            } else {
+                $extension = strval($obj->getFileExtension());
+            }
 
             $this->file_object_extension[$obj_id] = $extension;
         }

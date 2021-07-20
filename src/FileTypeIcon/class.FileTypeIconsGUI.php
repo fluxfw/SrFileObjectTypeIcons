@@ -39,7 +39,7 @@ class FileTypeIconsGUI
     /**
      *
      */
-    public static function addTabs()/*: void*/
+    public static function addTabs() : void
     {
         self::dic()->tabs()->addTab(self::TAB_LIST_FILE_TYPE_ICONS, self::plugin()->translate("file_type_icons", self::LANG_MODULE), self::dic()->ctrl()
             ->getLinkTargetByClass(self::class, self::CMD_LIST_FILE_TYPE_ICONS));
@@ -49,7 +49,7 @@ class FileTypeIconsGUI
     /**
      *
      */
-    public function executeCommand()/*: void*/
+    public function executeCommand() : void
     {
         $this->setTabs();
 
@@ -79,7 +79,7 @@ class FileTypeIconsGUI
     /**
      *
      */
-    protected function listFileTypeIcons()/*: void*/
+    protected function listFileTypeIcons() : void
     {
         self::dic()->tabs()->activateTab(self::TAB_LIST_FILE_TYPE_ICONS);
 
@@ -92,7 +92,7 @@ class FileTypeIconsGUI
     /**
      *
      */
-    protected function setTabs()/*: void*/
+    protected function setTabs() : void
     {
 
     }

@@ -1,15 +1,14 @@
 {
   "name": "srag/srfileobjecttypeicons",
   "description": "File type icons for ILIAS file objects",
-  "version": "1.1.5",
+  "version": "1.2.0",
   "extra": {
     "ilias_plugin": {
       "id": "srfilobjtypicns",
       "name": "SrFileObjectTypeIcons",
-      "ilias_min_version": "5.4.0",
-      "ilias_max_version": "6.999",
+      "ilias_min_version": "6.0",
+      "ilias_max_version": "7.999",
       "slot": "Services/UIComponent/UserInterfaceHook",
-      "supports_cli_setup": true,
       "events": [
         {
           "id": "Plugins/SrContainerObjectMenu",
@@ -24,9 +23,7 @@
           "type": "listen"
         }
       ]
-    },
-    "generate_plugin_readme_template": "ILIAS_PLUGIN",
-    "long_description_template": "src/LONG_DESCRIPTION.md"
+    }
   },
   "type": "project",
   "keywords": [
@@ -50,7 +47,7 @@
     }
   ],
   "require": {
-    "php": ">=7.0",
+    "php": ">=7.2",
     "srag/custominputguis": ">=0.1.0",
     "srag/datatable": ">=0.1.0",
     "srag/devtools": ">=0.1.0",
@@ -81,9 +78,7 @@
   "scripts": {
     "pre-autoload-dump": [
       "srag\\LibrariesNamespaceChanger\\LibrariesNamespaceChanger::rewriteLibrariesNamespaces",
-      "srag\\LibrariesNamespaceChanger\\PHP72Backport::PHP72Backport",
-      "srag\\GeneratePluginInfosHelper\\SrFileObjectTypeIcons\\GeneratePluginPhpAndXml::generatePluginPhpAndXml",
-      "srag\\GeneratePluginInfosHelper\\SrFileObjectTypeIcons\\GeneratePluginReadme::generatePluginReadme"
+      "srag\\GeneratePluginInfosHelper\\SrFileObjectTypeIcons\\GeneratePluginPhpAndXml::generatePluginPhpAndXml"
     ],
     "update-version": [
       "srag\\GeneratePluginInfosHelper\\SrFileObjectTypeIcons\\UpdateVersion::updateVersion"

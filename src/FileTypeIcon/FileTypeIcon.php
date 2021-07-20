@@ -80,7 +80,7 @@ class FileTypeIcon extends ActiveRecord
     /**
      * @param UploadResult|null $upload_result
      */
-    public function applyNewIcon(/*?*/ UploadResult $upload_result = null)/*: void*/
+    public function applyNewIcon(/*?*/ UploadResult $upload_result = null) : void
     {
         if (!empty($this->getIcon())) {
             if (file_exists($icon_old_path = $this->getIconPath())) {
@@ -140,7 +140,7 @@ class FileTypeIcon extends ActiveRecord
     /**
      * @param array $extensions
      */
-    public function setExtensions(array $extensions)/* : void*/
+    public function setExtensions(array $extensions) : void
     {
         $extensions = array_map(function (string $extension) : string {
             $extension = ltrim(trim(strtolower($extension)), ".");
@@ -166,7 +166,7 @@ class FileTypeIcon extends ActiveRecord
     /**
      * @param int $file_type_icon_id
      */
-    public function setFileTypeIconId(int $file_type_icon_id)/*: void*/
+    public function setFileTypeIconId(int $file_type_icon_id) : void
     {
         $this->file_type_icon_id = $file_type_icon_id;
     }
@@ -185,7 +185,7 @@ class FileTypeIcon extends ActiveRecord
     /**
      * @param string $icon
      */
-    public function setIcon(string $icon)/*: void*/
+    public function setIcon(string $icon) : void
     {
         $this->icon = $icon;
     }
