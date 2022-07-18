@@ -18,7 +18,6 @@ class ComposerStaticInit2d9d932d1d6e4e5adfa2bf09cb650cb8
             'srag\\Plugins\\SrFileObjectTypeIcons\\' => 35,
             'srag\\LibraryLanguageInstaller\\SrFileObjectTypeIcons\\' => 52,
             'srag\\LibrariesNamespaceChanger\\' => 31,
-            'srag\\GeneratePluginInfosHelper\\SrFileObjectTypeIcons\\' => 53,
             'srag\\DevTools\\SrFileObjectTypeIcons\\' => 36,
             'srag\\DataTableUI\\SrFileObjectTypeIcons\\' => 39,
             'srag\\DIC\\SrFileObjectTypeIcons\\' => 31,
@@ -42,10 +41,6 @@ class ComposerStaticInit2d9d932d1d6e4e5adfa2bf09cb650cb8
         'srag\\LibrariesNamespaceChanger\\' => 
         array (
             0 => __DIR__ . '/..' . '/srag/librariesnamespacechanger/src',
-        ),
-        'srag\\GeneratePluginInfosHelper\\SrFileObjectTypeIcons\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/srag/generateplugininfoshelper/src',
         ),
         'srag\\DevTools\\SrFileObjectTypeIcons\\' => 
         array (
@@ -209,9 +204,6 @@ class ComposerStaticInit2d9d932d1d6e4e5adfa2bf09cb650cb8
         'srag\\DataTableUI\\SrFileObjectTypeIcons\\Implementation\\Utils\\AbstractTableBuilder' => __DIR__ . '/..' . '/srag/datatable/src/Implementation/Utils/AbstractTableBuilder.php',
         'srag\\DataTableUI\\SrFileObjectTypeIcons\\Implementation\\Utils\\DataTableUITrait' => __DIR__ . '/..' . '/srag/datatable/src/Implementation/Utils/DataTableUITrait.php',
         'srag\\DevTools\\SrFileObjectTypeIcons\\DevToolsCtrl' => __DIR__ . '/..' . '/srag/devtools/src/class.DevToolsCtrl.php',
-        'srag\\GeneratePluginInfosHelper\\SrFileObjectTypeIcons\\GeneratePluginPhpAndXml' => __DIR__ . '/..' . '/srag/generateplugininfoshelper/src/GeneratePluginPhpAndXml.php',
-        'srag\\GeneratePluginInfosHelper\\SrFileObjectTypeIcons\\GeneratePluginReadme' => __DIR__ . '/..' . '/srag/generateplugininfoshelper/src/GeneratePluginReadme.php',
-        'srag\\GeneratePluginInfosHelper\\SrFileObjectTypeIcons\\UpdateVersion' => __DIR__ . '/..' . '/srag/generateplugininfoshelper/src/UpdateVersion.php',
         'srag\\LibrariesNamespaceChanger\\LibrariesNamespaceChanger' => __DIR__ . '/..' . '/srag/librariesnamespacechanger/src/LibrariesNamespaceChanger.php',
         'srag\\LibraryLanguageInstaller\\SrFileObjectTypeIcons\\LibraryLanguageInstaller' => __DIR__ . '/..' . '/srag/librarylanguageinstaller/src/LibraryLanguageInstaller.php',
         'srag\\Plugins\\SrFileObjectTypeIcons\\FileTypeIcon\\Factory' => __DIR__ . '/../..' . '/src/FileTypeIcon/Factory.php',
